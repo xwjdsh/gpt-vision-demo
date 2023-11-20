@@ -20,7 +20,7 @@ import {
 function App() {
   let imageOnly = 'image/*';
   let limit = 1;
-  const [prompt, setPrompt] = useState("分析下这张k线图。");
+  const [prompt, setPrompt] = useState("这张图片描绘了什么？");
   const [result, setResult] = useState("");
   const [loading, setLoading] = useState(false);
   const uploadRef = useRef();
