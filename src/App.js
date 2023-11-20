@@ -103,6 +103,7 @@ function App() {
   const onClick = async () => {
     if (uploadRef.current.state.fileList.length === 0) {
       Toast.warning("请先选择图片")
+      return
     }
     setResult("");
     setLoading(true);
